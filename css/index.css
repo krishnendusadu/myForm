@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+}
+.outer_box{
+	padding: 35px;
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+}
+.cent{
+	margin: 0 auto;
+}
+.header{
+	text-align: right;
+}
+.header img{
+	width: 20vw;
+	height: 12vh;
+}
+.tab_1{
+	width: 100%;
+    height: 70vh;
+}
+.b_left{
+	font-size: 16px;
+	font-weight: bold;
+}
+.tab_1
+#special{
+	    top: 68%;
+    left: 40%;
+    position: absolute;
+}
+input[type="text"] {
+	/*visibility: hidden;*/
+	border: none;
+	width: 100%;
+	height: 3vh;
+	background-color: #d9d4d3;
+}
+textarea{
+	
+	width: 100%;
+	height: 10vh;
+	border: none;
+	background-color: #d9d4d3;
+}
+.container_1{
+	display: flex;
+	justify-content: space-between;
+}
+.cont,
+.footer{
+	display: flex;
+    margin-left: 10px;
+}
+.cont div{
+	width: 15vw;
+}
+.cont_2,
+.cont_3{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+#cont3_1{
+	width: 63%;
+}
+.footer{
+    justify-content: space-between;
+    margin-top: 2%;
+    
+}
+.footer_l{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.footer_l div img{
+	width: 10vw;
+    height: 8vh 
+}
